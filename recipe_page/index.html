@@ -7,7 +7,7 @@
 </head>
 <body>
     <header>
-        <img src="app-academy-logo.jpg" alt="App Academy Logo" height="100" width="100">
+        <img src="app-academy-logo.jpg" alt="App Academy Logo" height="100" width="100"> <h1>Tzvi's Recipe Page</h1>
         <nav>
             <ul>
                 <li><a href="#ingredients">Ingredients</a></li>
@@ -47,8 +47,39 @@
 
     </ol>
     </section>
+    <h2>Reviews</h2>
+    <section>           
+        <form>
+            <label for="review">
+                Reviewer Name:
+            </label>
+            <input id="review">
+        </form>
+        <input type="radio" id="rating_1" name="rating" value=1>
+            <label for="rating_1">1</label>
+        <input type="radio" id="rating_2" name="rating" value=2>
+            <label for="rating_2">2</label>
+        <input type="radio" id="rating_3" name="rating" value=3>
+            <label for="rating_3">3</label>
+        <input type="radio" id="rating_4" name="rating" value=4>
+            <label for="rating_4">4</label>
+        <input type="radio" id="rating_5" name="rating" value=5>
+            <label for="rating_5">5</label>
+
+    </section>
+    <label for="cooking_expertise">Cooking Expertise</label>
+    <select name="cooking_level" id="cooking_level_select">
+        <option value="" disabled>--Please choose and option--</option>
+        <option value="Sometimes_cook">Sometimes Cook</option>
+        <option value="cook_everyday">Cook Everyday</option>
+        <option value="cooking_is_a_hobby">Cooking is a Hobby</option>
+        <option value="professional_chef">Professional Chef</option>
+    </select>
+    <label><br>Review
+        <textarea></textarea>
+    </label>
     <footer>
         <p>Recipe submitted by Anston Fullerton from the cookbook "Warmth of the Middle East"</p>
-    git </footer>
+    </footer>
 </body>
 </html>
