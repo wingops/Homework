@@ -1,10 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta name="description" content="Delicious middle eastern dish">
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tzvi's Favorite Dish</title>
+    <title>Shakshouka Recipe</title>
+    <link href="css-reset.css" rel="stylesheet" type="text/css">
+    <script src="additional.js"></script>
+    
+    <script>
+        (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]
+        ).push(arguments)},i[r].l=1*newDate();a=s.createElement(o),m=s
+        .getElementsByTagName(o)[0];a.async=1;a.src=g; 
+        m.parentNode.insertBefore(a, m)})(window, document, 'script', 
+        'https://www.google-analytics.com/analytics.js', 'ga');
+        ga('create', 'UA-12345678-9', 'auto');
+        ga('send', 'pageview');
+    </script>
 </head>
+
 <body>
     <header>
         <img src="app-academy-logo.jpg" alt="App Academy Logo" height="100" width="100"> <h1>Tzvi's Recipe Page</h1>
@@ -15,7 +29,6 @@
             </ul>
         </nav>
     </header>
-    <h1>Shakshuka</h1>
     
     <aside>
         <h2 id="ingredients">Ingredients</h2>
@@ -28,7 +41,9 @@
             <li>olive oil</li>
         </ul>
     </aside>
+    
     <section>
+        <h1>Shakshuka</h1>
     <h2>Description</h2>
     <p>This delicious Middle Eastern dish blends a light weight meal and that 
         spicy tomato taste. Shakshouka is an over millenia old Lebanese recipe.  
@@ -48,8 +63,8 @@
     </ol>
     </section>
     <h2>Reviews</h2>
-    <section>           
-        <form>
+    <section id="reviews">           
+        <form id="review-form">
             <label for="review">
                 Reviewer Name:
             </label>
